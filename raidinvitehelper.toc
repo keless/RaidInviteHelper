@@ -1,0 +1,12 @@
+## Interface: 11303
+## Title: Raid Invite Helper 1.2.4
+## Notes: Helps with inviting people to a scheduled raid in Classic
+## Author: Keless
+## Version: 1.2.4
+## SavedVariables: CurrentRoster, MinimapButtonPos
+
+RIH_MinimapButton.xml
+var_dump.lua
+EZPZWindow.lua
+inviteWindow.lua
+main.lua
