@@ -86,13 +86,14 @@ end
 
 local CLASS_SORT_VALUE = {  ["UNKNOWN"] = 0,
                             ["HUNTER"] = 1, 
-                            ["MAGE"] = 2, 
+                            ["MAGE"] = 2,
                             ["PRIEST"] = 3, 
                             ["ROGUE"] = 4, 
                             ["WARRIOR"] = 5, 
                             ["WARLOCK"] = 6, 
                             ["SHAMAN"] = 7, 
-                            ["PALADIN"] = 8 };
+                            ["PALADIN"] = 8,
+                            ["DRUID"] = 9 };
 local function RIH_SortByRole()
     local roster = RIH_GetCurrentData()
     table.sort(roster, function (a, b)
